@@ -5,4 +5,4 @@ Created loosely following the instructions for [Dartmouth's CS52 class](cs52.me)
 - Eslint (needs to be properly set up)
 - Sass
 - routing with react-router
-- state management with Zustand
+- state management with Zustand & Immer
