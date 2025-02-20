@@ -27,7 +27,7 @@ body, html {
 
     --black: #212224;
     --selected: pink;
-    --hover: red;
+    --hover: pink;
 }
 
 .active {
@@ -41,6 +41,23 @@ h1 {
     font-weight: 500;
 }
 
+.buttons {
+    display: flex;
+    gap: 0.5em;
+}
+
+.small-button {
+    height: 2em;
+    width: 2em;
+    border: none;
+    color: white;
+    border-radius: 0.25em;
+    background-color: var(--black);
+}
+
+.small-button:hover {
+    background-color: var(--hover);
+}
 /*
 /////// formatting navbar ///////
 */
