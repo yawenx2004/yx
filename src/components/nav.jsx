@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 
-const Nav = (props) => {
+function Nav(props) {
   return (
     <nav>
       <ul>
@@ -9,7 +9,7 @@ const Nav = (props) => {
         <li><NavLink to="/about" className="NavLink">about</NavLink></li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Nav;

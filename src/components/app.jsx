@@ -10,7 +10,7 @@ import Post from './post';
 import Fallback from './fallback';
 import Footer from './footer';
 
-const App = (props) => {
+function App(props) {
   return (
     <BrowserRouter>
       <div>
@@ -24,7 +24,7 @@ const App = (props) => {
         <Footer />
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
