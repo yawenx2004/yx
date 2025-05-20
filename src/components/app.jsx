@@ -4,15 +4,15 @@ import {
 } from 'react-router';
 
 // pages
-import Home from '../pages/home';
-import Blog from '../pages/blog';
-import About from '../pages/about';
+import Home from '../pages/home/home';
+import Blog from '../pages/ blog/blog';
+import About from '../pages/about/about';
 
 // components
-import Nav from './nav';
+import Nav from './nav/nav';
 import Post from './post';
 import Fallback from './fallback';
-import Footer from './footer';
+import Footer from './footer/footer';
 
 function App(props) {
   return (

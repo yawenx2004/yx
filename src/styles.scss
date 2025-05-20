@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* DEFAULTS: get rid of surprise margins & paddings! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: var(--black);
+}
+
+body, html {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    background: var(--gradient);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--black);
+}
+
+.logo {
+    background-image: url('img/logo.png');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: none;
+}
+
+:root {
+    text-size-adjust: 100%;
+
+    --gray: #8c9fc2;
+    --black: black;
+    --selected: pink;
+    --hover: #ffcf30;
+
+    --gradient: linear-gradient(to bottom, #e6faff 0%, #e6f0ff 40%, #e6e8ff 100%);
+    --gradient-white: linear-gradient(to bottom, white 0%,#fff5f9 40%,#fffbf5 100%);
+
+    --box-shadow: 0em 0.25em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+///////////
+/* FONTS */
+///////////
+p {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.coloredText {
+    color: #5265de;
+}
+
+///////////
+/* PAGES */
+///////////
+
+//////////////
+/* SECTIONS */
+//////////////
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 4em;
+}
+
+///////////
+/* TILES */
+///////////
+.row {
+    column-count: 3;
+    column-gap: 2em;
+    margin-top: 2em;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: left;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 2em;
+
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    border-radius: 1em;
+
+    break-inside: avoid;
+    overflow: hidden;
+}
+
+.tile p {
+    font-size: 0.9em;
+}
+
+.tile:hover {
+    border-radius: 2em;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,22 @@
+.intro-text {
+    width: 75%;
+    height: 60vh;
+}
+
+//////////////
+/* PROJECTS */
+//////////////
+.projects {
+    justify-content: center;
+    text-align: center;
+    background: var(--gradient-white);
+}
+
+////////////////////////////
+/* DIFFERENT SCREEN SIZES */
+////////////////////////////
+@media (max-width: 768px) {
+    .intro-text {
+        width: 100%;
+    }
+}
